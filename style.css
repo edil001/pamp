@@ -1,0 +1,120 @@
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+ul, ol, li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+/*-----------------------------------------------*/
+
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background: linear-gradient(to right,
+    #fadcc8, #c9c9b4);
+    padding: 15px 30px;
+}
+
+.menu__logo img{
+    width: 205px;
+    height: 30px;
+}
+
+.menu__content{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.menu__lo{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.menu__btn{
+    padding: 15px 20px;
+    border: 0;
+    background: rgb(255, 255, 255);
+    font-weight: 700;
+}
+
+.sell{
+    background: linear-gradient(to right,
+    #eaac8b, #98c1d9);
+}
+
+.sell__text{
+    font-size: 70px;
+}
+
+.sell__left{
+    width: 700px;
+    padding: 100px 0px 40px 30px;
+}
+
+.sell__podtext{
+    font-size: 28px;
+    font-weight: 700;
+    width: auto auto;
+    padding: 0px 0px 40px 30px;
+}
+
+.sell__btn{
+    width: 195px;
+    height: 60px;
+    font-size: 22px;
+    font-weight: 600;
+    border: 0;
+    margin: 0px 0px 350px 30px;
+}
+
+.get{
+    padding: 0px 0px 40px 30px;
+}
+
+.get a{
+    font-size: 22px;
+    font-weight: 700;
+    color: aliceblue;
+    border-bottom: 1px solid #000;
+}
+
+.sell__container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.sell__right{
+    margin-top: 250px;
+    padding: 0px 150px 0px 30px;
+    width: 600px;
+    height: 700px;
+    height: 600px;
+    overflow: auto;
+}
+
+.sell__scroll img{
+    width: 700px;
+    height: auto;
+}
